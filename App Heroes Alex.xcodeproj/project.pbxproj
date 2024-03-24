@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		5F4636D32BA07E9E00403F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636D22BA07E9E00403F21 /* AppDelegate.swift */; };
 		5F4636D52BA07E9E00403F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636D42BA07E9E00403F21 /* SceneDelegate.swift */; };
-		5F4636D72BA07E9E00403F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636D62BA07E9E00403F21 /* ViewController.swift */; };
 		5F4636DA2BA07E9E00403F21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5F4636D92BA07E9E00403F21 /* Base */; };
 		5F4636DC2BA07E9F00403F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4636DB2BA07E9F00403F21 /* Assets.xcassets */; };
 		5F4636DF2BA07E9F00403F21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5F4636DE2BA07E9F00403F21 /* Base */; };
+		5F4636E82BA0880A00403F21 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F4636E72BA0880A00403F21 /* SuperHeroes.json */; };
+		5F4636EE2BA08BDB00403F21 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636ED2BA08BDB00403F21 /* Heroes.swift */; };
+		5F4636F32BA08CD400403F21 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636F22BA08CD400403F21 /* DataInteractor.swift */; };
+		5F4636F62BA08E3900403F21 /* HeroLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636F52BA08E3900403F21 /* HeroLogic.swift */; };
+		5F4636F82BA0999900403F21 /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636F72BA0999900403F21 /* HeroesTableViewController.swift */; };
+		5F4636FB2BA0AA7C00403F21 /* JSONPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4636FA2BA0AA7C00403F21 /* JSONPersistence.swift */; };
+		5F79FCD42BA6D667005BEA7F /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79FCD32BA6D667005BEA7F /* CustomTableViewController.swift */; };
+		5F79FCD62BA6DDD8005BEA7F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79FCD52BA6DDD8005BEA7F /* CustomTableViewCell.swift */; };
+		5F8E4F392BA23D3A00C7D22C /* HeroDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E4F382BA23D3A00C7D22C /* HeroDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F4636CF2BA07E9E00403F21 /* App Heroes Alex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Heroes Alex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4636D22BA07E9E00403F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4636D42BA07E9E00403F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F4636D62BA07E9E00403F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F4636D92BA07E9E00403F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F4636DB2BA07E9F00403F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4636DE2BA07E9F00403F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4636E02BA07E9F00403F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4636E72BA0880A00403F21 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		5F4636ED2BA08BDB00403F21 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		5F4636F22BA08CD400403F21 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		5F4636F52BA08E3900403F21 /* HeroLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLogic.swift; sourceTree = "<group>"; };
+		5F4636F72BA0999900403F21 /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
+		5F4636FA2BA0AA7C00403F21 /* JSONPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPersistence.swift; sourceTree = "<group>"; };
+		5F79FCD32BA6D667005BEA7F /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		5F79FCD52BA6DDD8005BEA7F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5F8E4F382BA23D3A00C7D22C /* HeroDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		5F4636D12BA07E9E00403F21 /* App Heroes Alex */ = {
 			isa = PBXGroup;
 			children = (
-				5F4636D22BA07E9E00403F21 /* AppDelegate.swift */,
-				5F4636D42BA07E9E00403F21 /* SceneDelegate.swift */,
-				5F4636D62BA07E9E00403F21 /* ViewController.swift */,
 				5F4636D82BA07E9E00403F21 /* Main.storyboard */,
+				5FE8276C2BA9B9EC0046221F /* Cells */,
+				5F4636F92BA0A81500403F21 /* ViewController */,
+				5F4636F42BA08E2800403F21 /* Logic */,
+				5F4636EF2BA08C9700403F21 /* Interactor */,
+				5F4636EC2BA08BC000403F21 /* Model */,
+				5F4636E62BA087EC00403F21 /* Resources */,
 				5F4636DB2BA07E9F00403F21 /* Assets.xcassets */,
-				5F4636DD2BA07E9F00403F21 /* LaunchScreen.storyboard */,
-				5F4636E02BA07E9F00403F21 /* Info.plist */,
+				5F4636EB2BA08B5500403F21 /* System */,
 			);
 			path = "App Heroes Alex";
+			sourceTree = "<group>";
+		};
+		5F4636E62BA087EC00403F21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636E72BA0880A00403F21 /* SuperHeroes.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5F4636EB2BA08B5500403F21 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636DD2BA07E9F00403F21 /* LaunchScreen.storyboard */,
+				5F4636D42BA07E9E00403F21 /* SceneDelegate.swift */,
+				5F4636D22BA07E9E00403F21 /* AppDelegate.swift */,
+				5F4636E02BA07E9F00403F21 /* Info.plist */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		5F4636EC2BA08BC000403F21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636ED2BA08BDB00403F21 /* Heroes.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F4636EF2BA08C9700403F21 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636F22BA08CD400403F21 /* DataInteractor.swift */,
+				5F4636FA2BA0AA7C00403F21 /* JSONPersistence.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		5F4636F42BA08E2800403F21 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636F52BA08E3900403F21 /* HeroLogic.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		5F4636F92BA0A81500403F21 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F4636F72BA0999900403F21 /* HeroesTableViewController.swift */,
+				5F8E4F382BA23D3A00C7D22C /* HeroDetailTableViewController.swift */,
+				5F79FCD32BA6D667005BEA7F /* CustomTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5FE8276C2BA9B9EC0046221F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F79FCD52BA6DDD8005BEA7F /* CustomTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F4636DC2BA07E9F00403F21 /* Assets.xcassets in Resources */,
+				5F4636E82BA0880A00403F21 /* SuperHeroes.json in Resources */,
 				5F4636DF2BA07E9F00403F21 /* Base in Resources */,
 				5F4636DA2BA07E9E00403F21 /* Base in Resources */,
 			);
@@ -138,9 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4636D72BA07E9E00403F21 /* ViewController.swift in Sources */,
+				5F4636F32BA08CD400403F21 /* DataInteractor.swift in Sources */,
+				5F4636F62BA08E3900403F21 /* HeroLogic.swift in Sources */,
+				5F4636EE2BA08BDB00403F21 /* Heroes.swift in Sources */,
 				5F4636D32BA07E9E00403F21 /* AppDelegate.swift in Sources */,
 				5F4636D52BA07E9E00403F21 /* SceneDelegate.swift in Sources */,
+				5F4636F82BA0999900403F21 /* HeroesTableViewController.swift in Sources */,
+				5F79FCD62BA6DDD8005BEA7F /* CustomTableViewCell.swift in Sources */,
+				5F8E4F392BA23D3A00C7D22C /* HeroDetailTableViewController.swift in Sources */,
+				5F79FCD42BA6D667005BEA7F /* CustomTableViewController.swift in Sources */,
+				5F4636FB2BA0AA7C00403F21 /* JSONPersistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
